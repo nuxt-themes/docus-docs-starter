@@ -1,16 +1,6 @@
 import { withDocus } from '@docus/app'
 
 export default withDocus({
-  // TODO: Remove that temporary fix
-  // @ts-ignore
-  vite: {
-    server: {
-      fs: {
-        strict: false
-      }
-    }
-  },
-
   /**
    * Has to specify rootDir as we use nuxt-extend
    */
