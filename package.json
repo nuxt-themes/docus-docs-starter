@@ -13,7 +13,7 @@
     "vue-template-compiler": "2.6.14"
   },
   "dependencies": {
-    "@docus/app": "^1.0.36",
+    "@docus/app": "^1.0.37",
     "@docus/github": "^1.0.3",
     "@docus/social-image": "^1.0.2",
     "@docus/theme": "^1.0.7",
