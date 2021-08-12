@@ -7,17 +7,12 @@
     "build": "nuxt generate",
     "start": "nuxt start"
   },
-  "resolutions": {
-    "@nuxt/components": "npm:@pi0/components",
-    "vue-server-renderer": "2.6.14",
-    "vue-template-compiler": "2.6.14"
-  },
   "dependencies": {
-    "@docus/app": "^1.0.37",
-    "@docus/github": "^1.0.3",
-    "@docus/social-image": "^1.0.2",
-    "@docus/theme": "^1.0.7",
-    "@docus/twitter": "^1.0.3",
+    "@docus/app": "^1.1.3",
+    "@docus/github": "^1.0.4",
+    "@docus/social-image": "^1.0.3",
+    "@docus/theme": "^1.1.0",
+    "@docus/twitter": "^1.0.4",
     "@nuxt/typescript-build": "^2.1.0"
   }
 }
