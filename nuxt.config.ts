@@ -1,4 +1,4 @@
-import { withDocus } from '@docus/app'
+import { withDocus } from '@docus/app/kit'
 
 export default withDocus({
   /**
@@ -9,9 +9,8 @@ export default withDocus({
    * Modules
    */
   buildModules: [
-    '@nuxt/typescript-build',
-    '@docus/github',
-    '@docus/twitter',
-    '@docus/social-image'
-  ],
+    '@docus/github'
+    // '@docus/twitter',
+    // '@docus/social-image'
+  ]
 })
