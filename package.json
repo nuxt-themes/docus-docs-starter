@@ -9,9 +9,6 @@
   },
   "dependencies": {
     "@docus/app": "npm:@docus/app-edge@latest",
-    "@docus/docs-theme": "npm:@docus/docs-theme-edge@latest",
-    "@docus/github": "npm:@docus/github-edge@latest",
-    "@docus/social-image": "npm:@docus/social-image-edge@latest",
-    "@docus/twitter": "npm:@docus/docs-theme-edge"
+    "@docus/docs-theme": "npm:@docus/docs-theme-edge@latest"
   }
 }
