@@ -1014,15 +1014,15 @@
     prism-theme-vars "^0.2.2"
     scule "^0.2.1"
 
-"@docus/github@npm:@docus/github-edge":
-  version "1.0.4-27246974.170dc8e"
-  resolved "https://registry.yarnpkg.com/@docus/github-edge/-/github-edge-1.0.4-27246974.170dc8e.tgz#4e6beb96df1f8fe1254d84893005163a2617ba86"
-  integrity sha512-/aWChkZGPEeLSbvXv0aAN6P+hQi9SAaot575KUbeOvsSf+dXlbzEEKXu7k/gJz6Nr5R4Oaw9V6KLcgxA+YTLQg==
+"@docus/github@npm:@docus/github-edge", "@docus/github@npm:@docus/github-edge@1.0.4-27244002.2ba3933":
+  version "1.0.4-27244002.2ba3933"
+  resolved "https://registry.yarnpkg.com/@docus/github-edge/-/github-edge-1.0.4-27244002.2ba3933.tgz#db98d274b0014767c7d3338f14df75406edfe13e"
+  integrity sha512-/15PvPnx6oZsdHQrJuI+bSWg+6k+Ct/1v9zBrE7ArWOBoNvmqu/7TajhV+Php8e83gxCYQWt72Ht8/Qpn06P2w==
   dependencies:
     defu "^5.0.0"
     object-hash "^2.2.0"
     ohmyfetch "^0.2.0"
-    remark-github "^10.1.0"
+    remark-github "^11.1.0"
     ufo "^0.7.9"
     unenv "^0.3.10"
 
@@ -5063,11 +5063,6 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-escape-string-regexp@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
-  integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
-
 escape-string-regexp@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-5.0.0.tgz#4683126b500b61762f2dbebace1806e8be31b1c8"
@@ -7239,15 +7234,6 @@ mdast-util-definitions@^5.0.0:
     "@types/unist" "^2.0.0"
     unist-util-visit "^3.0.0"
 
-mdast-util-find-and-replace@^1.0.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/mdast-util-find-and-replace/-/mdast-util-find-and-replace-1.1.1.tgz#b7db1e873f96f66588c321f1363069abf607d1b5"
-  integrity sha512-9cKl33Y21lyckGzpSmEQnIDjEfeeWelN5s1kUW1LwdB0Fkuq2u+4GdqcGEygYxJE8GVqCl0741bYXHgamfWAZA==
-  dependencies:
-    escape-string-regexp "^4.0.0"
-    unist-util-is "^4.0.0"
-    unist-util-visit-parents "^3.0.0"
-
 mdast-util-find-and-replace@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/mdast-util-find-and-replace/-/mdast-util-find-and-replace-2.1.0.tgz#69728acd250749f8aac6e150e07d1fd15619e829"
@@ -7355,11 +7341,6 @@ mdast-util-to-markdown@^1.0.0, mdast-util-to-markdown@^1.2.3:
     micromark-util-decode-string "^1.0.0"
     unist-util-visit "^4.0.0"
     zwitch "^2.0.0"
-
-mdast-util-to-string@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/mdast-util-to-string/-/mdast-util-to-string-1.1.0.tgz#27055500103f51637bd07d01da01eb1967a43527"
-  integrity sha512-jVU0Nr2B9X3MU4tSK7JP1CMkSvOj7X5l/GboG1tKRw52lLF1x2Ju92Ms9tNetCcbfX3hzlM73zYo2NKkWSfF/A==
 
 mdast-util-to-string@^3.0.0, mdast-util-to-string@^3.1.0:
   version "3.1.0"
@@ -10142,14 +10123,16 @@ remark-gfm@^2.0.0:
     micromark-extension-gfm "^1.0.0"
     unified "^10.0.0"
 
-remark-github@^10.1.0:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/remark-github/-/remark-github-10.1.0.tgz#1c2777c1d4082b56d7890af656a0a525e49cacfc"
-  integrity sha512-q0BTFb41N6/uXQVkxRwLRTFRfLFPYP+8li26Js5XC0GKritCSaxrftd+t+8sfN+1i9BtmJPUKoS7CZwtccj0Fg==
+remark-github@^11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/remark-github/-/remark-github-11.1.0.tgz#b19a0801059822f1f5e077d449683900df108ca8"
+  integrity sha512-bI3Xuf3Kmq6GkYDMc7wjqTps1z+JAQ1VkQG8hHfq7A/HwoXJvatGNMguEx4Ci1v4aeu7cMalWDERJK1bQmoBkg==
   dependencies:
-    mdast-util-find-and-replace "^1.0.0"
-    mdast-util-to-string "^1.0.0"
-    unist-util-visit "^2.0.0"
+    "@types/mdast" "^3.0.0"
+    mdast-util-find-and-replace "^2.0.0"
+    mdast-util-to-string "^3.0.0"
+    unified "^10.0.0"
+    unist-util-visit "^4.0.0"
 
 remark-parse@^10.0.0:
   version "10.0.0"
@@ -11552,11 +11535,6 @@ unist-util-generated@^2.0.0:
   resolved "https://registry.yarnpkg.com/unist-util-generated/-/unist-util-generated-2.0.0.tgz#86fafb77eb6ce9bfa6b663c3f5ad4f8e56a60113"
   integrity sha512-TiWE6DVtVe7Ye2QxOVW9kqybs6cZexNwTwSMVgkfjEReqy/xwGpAXb99OxktoWwmL+Z+Epb0Dn8/GNDYP1wnUw==
 
-unist-util-is@^4.0.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-4.1.0.tgz#976e5f462a7a5de73d94b706bac1b90671b57797"
-  integrity sha512-ZOQSsnce92GrxSqlnEEseX0gi7GH9zTJZ0p9dtu87WRb/37mMPO2Ilx1s/t9vBHrFhbgweUwb+t7cIn5dxPhZg==
-
 unist-util-is@^5.0.0:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-5.1.1.tgz#e8aece0b102fa9bc097b0fef8f870c496d4a6236"
@@ -11583,14 +11561,6 @@ unist-util-stringify-position@^3.0.0:
   dependencies:
     "@types/unist" "^2.0.0"
 
-unist-util-visit-parents@^3.0.0:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/unist-util-visit-parents/-/unist-util-visit-parents-3.1.1.tgz#65a6ce698f78a6b0f56aa0e88f13801886cdaef6"
-  integrity sha512-1KROIZWo6bcMrZEwiH2UrXDyalAa0uqzWCxCJj6lPOvTve2WkfgCytoDTPaMnodXh1WrXOq0haVYHj99ynJlsg==
-  dependencies:
-    "@types/unist" "^2.0.0"
-    unist-util-is "^4.0.0"
-
 unist-util-visit-parents@^4.0.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/unist-util-visit-parents/-/unist-util-visit-parents-4.1.1.tgz#e83559a4ad7e6048a46b1bdb22614f2f3f4724f2"
@@ -11606,15 +11576,6 @@ unist-util-visit-parents@^5.0.0, unist-util-visit-parents@^5.1.0:
   dependencies:
     "@types/unist" "^2.0.0"
     unist-util-is "^5.0.0"
-
-unist-util-visit@^2.0.0:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-2.0.3.tgz#c3703893146df47203bb8a9795af47d7b971208c"
-  integrity sha512-iJ4/RczbJMkD0712mGktuGpm/U4By4FfDonL7N/9tATGIF4imikjOuagyMY53tnZq3NP6BcmlrHhEKAfGWjh7Q==
-  dependencies:
-    "@types/unist" "^2.0.0"
-    unist-util-is "^4.0.0"
-    unist-util-visit-parents "^3.0.0"
 
 unist-util-visit@^3.0.0:
   version "3.1.0"
