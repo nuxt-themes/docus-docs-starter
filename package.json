@@ -8,7 +8,7 @@
     "start": "nuxt start"
   },
   "resolutions": {
-    "@docus/github": "npm:@docus/github-edge@1.0.4-27244002.2ba3933"
+    "mdast-util-from-markdown": "1.0.4"
   },
   "dependencies": {
     "@docus/app": "npm:@docus/app-edge@latest",
