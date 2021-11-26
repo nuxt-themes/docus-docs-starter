@@ -1,4 +1,4 @@
-import { defineThemeConfig } from '@docus/docs-theme'
+import { defineThemeConfig } from 'docus'
 
 export default defineThemeConfig({
   header: {

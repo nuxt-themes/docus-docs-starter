@@ -16,7 +16,8 @@
     "allowSyntheticDefaultImports": true,
     "types": ["@types/node", "@nuxtjs/i18n"],
     "paths": {
-      "#app": ["./node_modules/@nuxt/bridge/dist/runtime"]
+      "#app": ["./node_modules/@nuxt/bridge/dist/runtime"],
+      "#docus": ["./node_modules/docus/dist/runtime"]
     }
   }
 }

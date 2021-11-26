@@ -1,4 +1,4 @@
-import { defineDocusConfig } from '@docus/app/kit'
+import { defineDocusConfig } from 'docus'
 
 export default defineDocusConfig({
   title: 'Docus',

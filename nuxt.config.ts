@@ -1,4 +1,4 @@
-import { withDocus } from '@docus/app/kit'
+import { withDocus } from 'docus'
 
 export default withDocus({
   /**
