@@ -11,6 +11,6 @@
     "nuxt": "npm:nuxt3@latest"
   },
   "dependencies": {
-    "docus": "^3.0.0-beta.13"
+    "docus": "^3.0.0-beta.6"
   }
 }
