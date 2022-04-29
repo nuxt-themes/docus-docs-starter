@@ -11,3 +11,4 @@ sw.*
 .env
 .output
 yarn.lock
+.history
