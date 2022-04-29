@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "outDir": "./dist",
+    "strict": false,
+    "sourceMap": true,
+    "target": "ESNext",
+    "allowJs": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "lib": ["ESNext", "DOM"],
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["@types/node", "@nuxtjs/i18n"],
+    "paths": {
+      "#app": ["./node_modules/@nuxt/bridge/dist/runtime"],
+      "#docus": ["./node_modules/docus/dist/runtime"]
+    }
+  }
+}
