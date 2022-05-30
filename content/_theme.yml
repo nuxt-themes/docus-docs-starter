@@ -1,11 +1,14 @@
 title: Docus
 
+layout: docs
+
 url: "https://docus.dev"
 
 description: Write pages in markdown, use Vue components and enjoy the power of Nuxt with a blazing fast developer experience.
 
 socials:
   twitter: "@docus_"
+  github: "nuxtlabs/docus-starter"
 
 debug: false
 
@@ -21,8 +24,9 @@ header:
 
 footer:
   credits:
-    icon: IconNuxtLabs
-    text: Made by NuxtLabs
+    icon: IconDocus
+    text: Powered by Docus
+    href: https://docus.com
   icons:
   - label: NuxtJS
     href: https://nuxtjs.org
