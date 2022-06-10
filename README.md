@@ -1,5 +1,3 @@
-![docus preview](https://docus.dev/preview.png)
-
 # Docus Starter
 
 Starter template for [Docus](https://docus.dev).
