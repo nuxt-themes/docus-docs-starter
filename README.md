@@ -1,4 +1,4 @@
-![docus preview](./static/preview.png)
+![docus preview](https://docus.dev/preview.png)
 
 # Docus Starter
 
@@ -9,23 +9,43 @@ Starter template for [Docus](https://docus.dev).
 Install dependencies:
 
 ```bash
-yarn install
+pnpm install
 ```
 
 ## Development
 
 ```bash
-yarn dev
+pnpm dev
+```
+
+## Edge Side Rendering
+
+Can be deployed to Vercel Functions, Netlify Functions, AWS, and most Node-compatible environments.
+
+Look at all the available presets [here](https://v3.nuxtjs.org/guide/deploy/presets).
+
+```bash
+pnpm build
 ```
 
 ## Static Generation
 
-This will create the `dist/` directory for publishing to static hosting:
+Use the `generate` command to build your application.
+
+The HTML files will be generated in the .output/public directory and ready to be deployed to any static compatible hosting.
 
 ```bash
-yarn build
+pnpm generate
 ```
 
-To preview the static generated app, run `yarn start`
+## Preview build
 
-For detailed explanation on how things work, checkout [Docus](https://docus.dev).
+You might want to preview the result of your build locally, to do so, run the following command:
+
+```bash
+pnpm preview
+```
+
+---
+
+For a detailed explanation of how things work, check out [Docus](https://docus.dev).
