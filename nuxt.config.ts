@@ -1,7 +1,7 @@
 import { defineNuxtConfig } from 'nuxt'
 
 export default defineNuxtConfig({
-  extends: ['./node_modules/@docus/docs-theme'],
+  extends: [require.resolve('@docus/docs-theme')],
   github: {
     repo: 'nuxtlabs/docus-starter'
   }
