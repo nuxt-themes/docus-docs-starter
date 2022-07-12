@@ -9,7 +9,7 @@
     "preview": "nuxi preview"
   },
   "devDependencies": {
-    "nuxt": "^3.0.0-rc.3",
-    "@docus/docs-theme": "npm:@docus/docs-theme-edge@latest"
+    "nuxt": "npm:nuxt3@latest",
+    "@nuxt-themes/docus": "npm:@nuxt-themes/docus-edge@latest"
   }
 }
