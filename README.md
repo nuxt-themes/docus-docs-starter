@@ -4,10 +4,10 @@ Starter template for [Docus](https://docus.dev).
 
 ## Clone
 
-Clone the repository (using `degit`):
+Clone the repository (using `nuxi`):
 
 ```bash
-npx nuxi init docus-app -t nuxtlabs/docus-starter
+npx nuxi init docs -t nuxt-themes/docus-starter
 ```
 
 ## Setup
