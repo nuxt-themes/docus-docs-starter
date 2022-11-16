@@ -10,6 +10,6 @@
   },
   "devDependencies": {
     "nuxt": "npm:nuxt3@latest",
-    "@nuxt-themes/docus": "0.2.1"
+    "@nuxt-themes/docus": "0.3.1"
   }
 }
