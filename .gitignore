@@ -10,3 +10,8 @@ dist
 sw.*
 .env
 .output
+
+# lock file to let the user choose the package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
