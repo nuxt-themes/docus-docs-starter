@@ -11,8 +11,10 @@
   },
   "devDependencies": {
     "@nuxt-themes/docus": "^1.11.1",
+    "@nuxt/content": "^2.6.0",
     "@nuxt/eslint-config": "^0.1.1",
+    "@nuxthq/studio": "^0.13.2",
     "eslint": "^8.40.0",
-    "nuxt": "3.3.3"
+    "nuxt": "^3.5.2"
   }
 }
