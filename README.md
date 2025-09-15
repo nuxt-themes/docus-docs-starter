@@ -1,3 +1,5 @@
+> Old template, please checkout https://github.com/nuxt-content/docus
+
 # Docus Starter
 
 Starter template for [Docus](https://docus.dev).
