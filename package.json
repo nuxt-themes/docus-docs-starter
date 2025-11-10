@@ -2,6 +2,8 @@
   "name": "docus-starter",
   "version": "0.1.0",
   "private": true,
+  "author": "NuxtLabs <legal@nuxtlabs.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
